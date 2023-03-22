@@ -1,0 +1,173 @@
+<style>
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial;
+	padding: 20px;
+	background: #FAEBD7;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+/* Nav Bar */ 
+.topnav{
+	overflow:hidden;
+	background-color: white;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+}
+.topnav a{
+	float:left;
+	display:block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 19px;
+	text-decoration: none;
+	margin-left: 100px;
+	font-size: 20px;
+}
+.topnav a:link {
+  color: black;
+}
+
+.topnav a:visited {
+  color: black;
+  }
+.topnav a:hover{
+	background-color: #F0F8FF;
+	color: red;
+}
+
+/*left column */
+.leftcolumn {
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+	padding: 10px;
+}
+.contain {
+	background-color: #F5F5DC;
+	padding: 20px;
+	margin: 25px 100px 55px;
+	color: white;
+	text-align: center;
+}
+.contain1 {
+	background-color: #F5F5DC;
+	padding: 20px;
+	text-align: center;
+}
+.shopme a{
+	color: white;
+}
+
+.mySlides {
+	display:none;
+	margin-top: 60px;
+	border: 5px solid black;
+}
+.shopme a:link {
+  text-decoration: none;
+  background-color: red;
+  border: solid;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  padding: 30px;
+}
+.shopme a:hover{
+	color: blue;
+}
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 5px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.arrive{
+	text-decoration: overline underline;
+	font-size: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 20px 10px;
+  float: left;
+  width: 24.99999%;
+}
+.sample {
+  padding-top: 10px;
+  float: right;
+  width: 24.99999%;
+  margin-right: 600px;
+  border: 1px solid #ccc;
+}
+.sample img {
+  width: 100%;
+  height: 200px;
+}
+.sample:hover {
+  border: 5px solid #777;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* footer */
+.footer{
+	padding: 20px;
+	text-align: center;
+	background-color: #ddd;
+	margin-top: 20px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
